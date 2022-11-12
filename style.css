@@ -1,3 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;300&family=Combo&family=Dancing+Script:wght@500&family=Ms+Madi&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:ital,wght@0,200;0,400;1,200&family=Roboto:wght@300;400&family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.flex_nav_div{
+    border-bottom: 1px solid rgb(214, 208, 208);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.btn{
+    position: absolute;
+    right: 20px;
+    top: -22px;
+    margin-top: 40px;
+    border: 1px solid black !important;
+    width: 120px;
+    padding: 10px !important;
+    font-size: 1.5rem !important;
+}
+
+.logo_btn_div{
+    display: flex;
+}
+.logo{
+    height: 8rem;
+}
+/* body h1 */
+
+.body_h1_div{
+    margin-top: 30px;
+}
+.attendance_h1{
+    color: rgb(16, 38, 107);
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+.body_2nd_h1{
+    font-size: 6.1rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+.admin_h1 {
+    margin-top: 20px;
+}
+.li {
+    list-style: none;
+}
+/* main form container */
+.form_div{
+    border: 1px solid gray;
+}
+#form{
+    /* border: 1px solid rgb(180, 176, 176); */
+    box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+    width: 355px;
+    height: 300px;
+}
+#same_inputs {      
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.same_input {
+    padding: 13px;
+    margin: 8px 0px;
+    width: 300px;
+    font-size: 17px;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 5px;
+    /* box-shadow: -1px 5px 6px -2px rgba(0,0,0,0.57); */
+    box-shadow: -1px 6px 4px -4px rgba(180, 176, 176, 0.57);
+}
+
+.same_input:focus {
+    outline: none;
+}
+
+#checkbox_input {
+    margin: 15px 0px;
+}
+.signIn_div{
+    display: flex;
+}
+#signIn_second_btn {
+    background-color: rgb(64, 113, 244);
+    color: white;
+    padding: 10px;
+    margin: 15px 0px;
+    width: 95%;
+    font-size: 18px;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: none
+}
+
+#signIn_second_btn:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(64, 113, 244);
+    color: rgb(64, 113, 244);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 }

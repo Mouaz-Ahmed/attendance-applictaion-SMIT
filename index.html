@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>attendence application</title>
     <!-- link to css -->
     <link rel="stylesheet" href="./style.css">
 
@@ -23,6 +23,37 @@
 </head>
 
 <body>
+
+    <div class="container-fluid main_navbar">
+        <div class="flex_nav_div">
+            <div class="logo_btn_div ">
+                <img class="logo" src="./images/logo.png" alt="">
+                <button id="signIn_btn" class="btn">SignIN</button>
+            </div>
+        </div>
+    </div>
+    <div class="body_h1_div">
+        <h1 class="text-center attendance_h1">Attendance Application</h1>
+        <h1 class="text-center body_2nd_h1">Saylani Mass IT Training Program</h1>
+    </div>
+    <div id="form" class="container-fluid">
+        <form action="#">
+            <h1 class="text-center admin_h1">Admin Login</h1>
+            <ul>
+                <div id="same_inputs">
+                    <li class="li"><input class="same_input" type="email" placeholder="Enter your email"
+                            id="email_value">
+                    </li>
+                    <li class="li"><input class="same_input" type="password" placeholder="Enter your password"
+                            id="password_value">
+                    </li>
+                </div>
+                    <li class="li signIn_div">
+                        <button id="signIn_second_btn" class="text-center" onclick="adminLogin()">signIn</button>
+                    </li>
+            </ul>
+        </form>
+    </div>
 
     <!-- link to app -->
     <script type="module" src="./app.js"></script>
