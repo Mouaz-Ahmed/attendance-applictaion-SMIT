@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(255, 248, 248) !important;
+}
+.class_h1{
+    transition: all 0.2s linear;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.class_h1:hover{
+    transform: scaleX(1.2);
+}
+.form-control{
+    box-shadow: -1px 6px 4px -4px rgba(180, 176, 176, 0.57);
+
+}
+.form-control:hover{
+    border-color: gray;
+}
+@media (max-width:992px){
+    .table{
+        font-size: 13px;
+    }
+    
+}
+@media (max-width:768px){
+    .table{
+        font-size: 10px;
+    }
+}

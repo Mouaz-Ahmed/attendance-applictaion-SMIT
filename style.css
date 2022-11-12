@@ -17,7 +17,7 @@ html{
     right: 20px;
     top: -22px;
     margin-top: 40px;
-    border: 1px solid black !important;
+    /* border: 1px solid black !important; */
     width: 120px;
     padding: 10px !important;
     font-size: 1.5rem !important;
@@ -32,7 +32,7 @@ html{
 /* body h1 */
 
 .body_h1_div{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .attendance_h1{
     color: rgb(16, 38, 107);
@@ -45,8 +45,13 @@ html{
     font-weight: 300;
     letter-spacing: 0.1rem;
 }
+.admin_h1_div{
+    position: relative;
+    top: 15px;
+    color: rgb(16, 38, 107);
+}
 .admin_h1 {
-    margin-top: 20px;
+    margin-top:2rem;
 }
 .li {
     list-style: none;
@@ -108,34 +113,79 @@ html{
     border: 1px solid rgb(64, 113, 244);
     color: rgb(64, 113, 244);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (max-width:915px){
+    .attendance_h1{
+        font-size: 4rem;
+    }
+    .body_2nd_h1{
+        font-size: 4rem;
+    }
 }
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width:615px){
+    .attendance_h1{
+        font-size: 3.5rem;
+    }
+    .body_2nd_h1{
+        font-size: 3.5rem;
+    }
 }
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (max-width:540px){
+    .logo{
+        height: 6rem;
+    }
+    .btn{
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    margin-top: 30px;
+    /* border: 1px solid black !important; */
+    width: 90px;
+    padding: 6px !important;
+    font-size: 1.2rem !important;
 }
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+    .attendance_h1{
+        font-size: 3rem;
+    }
+    .body_2nd_h1{
+        font-size: 3rem;
+    }
+    #form{
+        box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+        width: 300px;
+        height: 235px;
+    }
+    .same_input {
+        padding: 8px;
+        margin: 8px 0px;
+        width: 250px;
+        font-size: 12px;
+        border: 1px solid rgb(180, 176, 176);
+        border-radius: 5px;
+        /* box-shadow: -1px 5px 6px -2px rgba(0,0,0,0.57); */
+        box-shadow: -1px 6px 4px -4px rgba(180, 176, 176, 0.57);
+    }
+    #signIn_second_btn {
+        background-color: rgb(64, 113, 244);
+        color: white;
+        padding: 7px;
+        margin: 15px 0px;
+        width: 95%;
+        font-size: 13px;
+    }
 }
-/* // X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
+@media (max-width:466px){
+    .attendance_h1{
+        font-size: 2.5rem;
+    }
+    .body_2nd_h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:395px){
+    .attendance_h1{
+        font-size: 2rem;
+    }
+    .body_2nd_h1{
+        font-size: 2rem;
+    }
 }

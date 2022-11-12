@@ -1,0 +1,39 @@
+.home_h1{
+    margin-top: 40px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.card-title{
+    margin-top: -20px;
+}
+.card-text {
+    margin-top: 20px;
+}
+.home_h1:hover{
+    transform: scaleY(1.1);
+}
+.card_img{
+    height: 200px;
+}
+/* btn */
+.goto_class_btn{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.goto_class_btn:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(64, 113, 244);
+    color: rgb(64, 113, 244);
+}
+/* main card div */
+.card_div{
+    box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
+    border: 1px solid white !important;
+    height: 400px;
+}
+.card-text{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
